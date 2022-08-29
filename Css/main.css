@@ -32,9 +32,11 @@
 
 .presentacion{
     background-color: #FCB9B2;
-    padding-top: 300px;
+
     text-align: center;
     height: 600px;
+    padding: 50px;
+padding-top: 200px;
 }
 
 
@@ -55,5 +57,29 @@
 
 #tarjetas{
     background-color: #B23A48;
+}
+
+
+#formu1{
+    background-color: #FED0BB;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 50px;
+}
+
+
+.inicio{
+    margin-top: 240px;
+    margin-right: 140px;
+}
+
+
+.about{
+    background-color: #FCB9B2;
+}
+
+.blog-footer{
+    background-color: antiquewhite;
+    
 }
 
