@@ -1,38 +1,66 @@
 
-#ribbon ::after{
-    content: '';
-    background-color: transparent;
-    display: block;
-    height: -30px;
-    width: 0%;
-    margin: 0 auto;
-    left: auto;
-    position: relative;
+.navbar{
+    background-color: #0A2E36;
+    float: right;
+    
+}
+
+h2{
+    font-family:sans-serif;
+
+}
+
+h4{
+    font-family: LibreBaskerville-Regular,Palatino Linotype,Times New Roman,serif;
+}
+
+.presentacion{
+    background-color: #0A2E36;
+    color:whitesmoke;
+    height: 500px;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.cuerpo{
+    background-color: #f3f3f3;
+    margin-top: -30px;
+    padding-top: 20px;
 }
 
 
-
-#foto{
-    background-color: gainsboro;
-    position: relative;
-    z-index: 10;
-    box-shadow: 0 0 10px #B23A48;
-    width: 80%;
-    margin-bottom: -40px;
-    margin-top: 20px;
-}
 
 #foto img{
     position: relative;
 }
 
-.navbar{
-    background-color: #FCB9B2;
+.img{
+    height: 600px;
+    width: 1000px;
+    padding: 50px;
 }
 
-.presentacion{
-    background-color: #FCB9B2;
+#cursos{
+    padding-left: 200px;
+}
 
+#idiomas{
+    margin-bottom: 50px;
+    padding-left: 50px;
+}
+
+#trayectoria{
+    margin-top: 50px;
+   margin-left: 200px;
+}
+
+#experiencia{
+    margin-left: 50px;
+}
+
+
+.presentacion2{
+    background-color: #FCB9B2;
     text-align: center;
     height: 600px;
     padding: 50px;
@@ -78,8 +106,13 @@ padding-top: 200px;
     background-color: #FCB9B2;
 }
 
-.blog-footer{
-    background-color: antiquewhite;
-    
+
+
+.footer{
+    background-color: #0A2E36;
+    text-align: center;
+    height: 300px;
+    padding-top: 150px;
+    color: white;
 }
 
